@@ -1,0 +1,7 @@
+#banner .container{
+    box-sizing: border-box;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+}
