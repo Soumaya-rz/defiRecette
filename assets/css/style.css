@@ -1,0 +1,181 @@
+*{
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* !!!!!!!!!!!!!! SYRINE header !!!!!!!!!!!!!! */
+
+header {
+    background-color: #d6ccc2;
+    color: white;
+    padding: 10px 0;
+}
+
+.containerr  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+ /* !!!!!!!!!!!!!! SYRINE header nav !!!!!!!!!!!!!! */
+
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#espace {
+    word-spacing: 20px;
+    
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+ /* !!!!!!!!!!!!!! SYRINE header nav !!!!!!!!!!!!!! */
+
+.search-form form {
+    display: flex;
+    align-items: center;
+}
+
+.search-form input[type="text"] {
+    padding: 5px;
+    border: 1px solid #a98467;
+    border-radius: 5px;
+}
+
+.search-form input:hover {
+    border: 1px solid #F5EBE1;
+}
+
+.search-form button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F5EBE1;
+    color: black;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #a98467;
+    border-radius: 3px;
+}
+
+/* !!!!!!!!!!!!!! SYRINE header !!!!!!!!!!!!!! */
+
+/* !!!!!!!!!!!!!! SYRINE footer !!!!!!!!!!!!!! */
+
+footer {
+    background-color: #d6ccc2;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* !!!!!!!!!!!!!! SYRINE FOOTER Newsletter !!!!!!!!!!!!!! */
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter-form input[type="email"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    max-width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F5EBE1;;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.newsletter-form button:hover {
+    background-color: #a98467;
+}
+
+/* !!!!!!!!!!!!!! SYRINE FOOTER Newsletter !!!!!!!!!!!!!! */
+
+/* !!!!!!!!!!!!!! SYRINE FOOTER Mentions légales !!!!!!!!!!!!!! */
+
+.mentions-legales {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.mentions-legales strong {
+    font-weight: bold;
+}
+
+.mentions-legales a {
+    color: white;
+    text-decoration: none;
+}
+
+.mentions-legales a:hover {
+    text-decoration: underline;
+}
+
+/* !!!!!!!!!!!!!! SYRINE FOOTER Mentions légales !!!!!!!!!!!!!! */
+
+
+/* !!!!!!!!!!!!!! SYRINE FOOTER Réseaux sociaux  !!!!!!!!!!!!!! */
+
+.social-media {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.social-media a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #ff6600;
+}
+
+/* !!!!!!!!!!!!!! SYRINE FOOTER Réseaux sociaux  !!!!!!!!!!!!!! */
