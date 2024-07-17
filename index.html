@@ -4,71 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
     <title>Recette</title>
-=======
-    <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
     <link rel="stylesheet" href="assets/css/style.css">
->>>>>>> syrine
 </head>
 
 <body>
-<<<<<<< HEAD
-
-    <!-- SYRINE -->
-    <header> 
-        <nav>
-            <a href="index.html"> <img src="assets/img/Logo.png" alt="logo"></a>
-            <a href="#"> <i class="fa-solid fa-users"> </i> <br> Recettes </a>
-            <a href="#"> <i class="fa-solid fa-user"> </i> <br> Menu</a>
-            <a href="#"> <i class="fa-solid fa-cloud"> </i><br> Thèmes </a>
-            <a href="#"> <i class="fa-solid fa-cloud"> </i><br> Idées de recettes </a>
-            <span class="button icon-svg-search">
-                <svg xmlns="http://www.w3.org/2000/svg" width="23.258" height="23.276" viewBox="0 0 23.258 23.276">
-                    <g transform="translate(0)">
-                        <g class="search-icon-color" fill="rgba(255,255,255,0)" stroke="#ccc" stroke-width="2">
-                            <ellipse cx="9.12" cy="9.12" rx="9.12" ry="9.12" stroke="none"></ellipse>
-                            <ellipse cx="9.12" cy="9.12" rx="8.12" ry="8.12" fill="none"></ellipse>
-                        </g>
-                        <line class="search-icon-color" x2="7.7" y2="7.5" transform="translate(14.86 15.06)" fill="none" stroke="#ccc" stroke-width="2"></line>
-                    </g>
-                </svg>
-
-                <div class="siteheader_search-wrapper">
-                    <form method="get" action="/recettes/recherche_terme.aspx">
-<div class="search">
-<input type="search" name="recherche" placeholder="Trouver LA recette qui vous fait envie" id="tbMainSearch" class="autocomplete" aria-label="Chercher" autocomplete="off">
-<div class="autocomplete-suggestions"></div></div>
-</form>
-                </div>
-            </span>
-
-
-        </nav>
-
-
-    </header>
-<!-- SYRINE -->
-
-    <div id="main">
-        <div id="banner">
-            <div class="container">
-                <div><h1>CREPE</h1></div>
-                <div><video src=""></video></div>
-                <div>
-                    <div><img src=""></div>
-                    <div><img src=""></div>
-                    <div><img src=""></div>
-                    <div><img src=""></div>
-                    <div><img src=""></div>
-                </div>  
-            </div>
-        </div>
-    
-    <footer></footer>
-=======
     <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! SYRINE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
     <header>
 
@@ -96,30 +37,53 @@
     </header>
     <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! SYRINE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
     <!-- XIOLI -->
-    <main>
-        <div id="main">
-            <div id="banner">
-                <div class="container">
-                    <div>
-                        <h1>CREPE</h1>
-                    </div>
-                    <div><video src=""></video></div>
-                    <div>
-                        <div><img src=""></div>
-                        <div><img src=""></div>
-                        <div><img src=""></div>
-                        <div><img src=""></div>
-                        <div><img src=""></div>
-                    </div>
+        <div id="banner">
+            <div class="container">
+                <div id="h1"><h1>CREPE</h1></div>
+                <div class="large-media">
+                    <video id="mainVideo" controls autoplay muted>
+                        <source src="../defiRecette/assets/img/4966651-uhd_4096_2160_25fps.mp4" type="video/mp4">
+                    </video> 
                 </div>
+                <div class="photos">
+                    <div id="img1" ><img class="thumb" src="../defiRecette/assets/img/pexels-polina-tankilevitch-4725646.jpg" data-large="../defiRecette/assets/img/pexels-polina-tankilevitch-4725646.jpg"></div>
+                    <div id="img2"><img class="thumb" src="../defiRecette/assets/img/pexels-polina-tankilevitch-4725649.jpg"  data-large="../defiRecette/assets/img/pexels-polina-tankilevitch-4725649.jpg"></div>
+                    <div id="img3"><img class="thumb" src="../defiRecette/assets/img/pexels-polina-tankilevitch-8601528.jpg" data-large="../defiRecette/assets/img/pexels-polina-tankilevitch-8601528.jpg"></div>
+                    <div id="img4"><img class="thumb" src="../defiRecette/assets/img/pexels-polina-tankilevitch-8601529.jpg"  data-large="../defiRecette/assets/img/pexels-polina-tankilevitch-8601529.jpg"></div>
+                    <div id="img5"><img class="thumb" src="../defiRecette/assets/img/pexels-polina-tankilevitch-8601530.jpg" data-large="../defiRecette/assets/img/pexels-polina-tankilevitch-8601530.jpg"></div>
+                </div>
+                    <script src="../defiRecette/javascript.js"></script>
+                </div> 
             </div>
         </div>
+    
         <!-- XIOLI -->
 
         <!-- SOUMAYA -->
 
 
         <!-- SOUMAYA -->
+
+      <!-- XIOLI -->
+        <div id="commentaires">
+            <div class="container">
+                <div><h2>Commentaires</h2></div>
+                <div class="avis">Donnez votre avis</div>
+                <div class="stars">
+                    <span class="star" data-value="1">&#9733;</span>
+                    <span class="star" data-value="2">&#9733;</span>
+                    <span class="star" data-value="3">&#9733;</span>
+                    <span class="star" data-value="4">&#9733;</span>
+                    <span class="star" data-value="5">&#9733;</span>
+                </div>
+                <script src="../defiRecette/javascript.js"></script>
+                <div>
+                    <input type="text" name="" id="" class="box" placeholder="Ecrire votre commentaire ici"><BR>
+                    <input type="submit" value="Valide" class="submit">
+                </div>
+            </div>
+        </div>
+      <!-- XIOLI -->
     </main>
 
     <!-- SYRINE -->
@@ -160,7 +124,6 @@
     </footer>
     <!-- SYRINE -->
 
->>>>>>> syrine
 </body>
 
 </html>
