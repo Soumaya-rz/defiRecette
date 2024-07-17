@@ -1,0 +1,95 @@
+/*CSS DE XIAOLI*/
+#banner{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+#banner .container{
+    box-sizing: border-box;
+    margin: 0;
+    padding-top: 20PX;
+    padding-bottom: 20PX;
+    display: flex;  
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center; 
+}
+#banner .container> * {
+    padding: 10px;
+    flex: 1 100%;
+  }
+#banner h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.large-media {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width:100%;
+    height: 650px;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden; 
+}
+
+.large-media video, .large-media img {
+    width:100%;
+    height: 650px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    object-fit: cover; 
+    object-position: center;
+    overflow: hidden; 
+}
+
+#banner .photos{
+    display: flex;
+    justify-content:space-between;
+    gap: 10px;
+}
+.photos img{
+    width:220PX ;
+    height: auto;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border 0.3s;
+    object-fit: cover; 
+    object-position: center; 
+}
+.photos img:hover {
+    border-color: #777;
+}
+
+  @media (min-width: 1200px) {
+    .photos{
+        display: flex;
+        flex-direction: row;
+        justify-content: pace-between;
+    }
+  }
+  @media (min-width: 992px) {
+    .photos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: pace-between;
+    }
+}
+
+    @media (min-width: 769px) {
+        #banner img{ flex: 1 0 0; }
+        #banner h1    { flex: 3 0px; }
+        #banner video { order: 1; } 
+        #img1    { order: 2; }
+        #img2  { order: 3; }
+        #img3   { order: 4; }
+        #img4   { order: 5; }
+        #img5   { order: 6; }
+      }
+/*CSS DE XIAOLI*/
